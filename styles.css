@@ -1,0 +1,39 @@
+body {
+    background-color: #28204C;
+    position: relative;
+}
+.list-group-item {
+    color: #53F2C2;
+    background-color: #28204C;
+    border-color: #28204C;
+}
+
+.list-group-item.active {
+    color: #212529;
+    background-color: #53F2C2;
+    border-color: #53F2C2;
+}
+
+
+.section-wrapper {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.section {
+    background-color: #53F2C2;
+    padding-top: 2.5vh;
+    padding-right: 2vh;
+    padding-bottom: 1vh;
+    padding-left: 2vh;
+    border-radius: 1vh;
+}
+
+.header {
+    text-align: center;
+}
+
+.text {
+    text-align: justify;
+    margin-top: 2.5vh;
+}
