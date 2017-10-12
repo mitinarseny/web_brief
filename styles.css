@@ -1,11 +1,9 @@
 html, body {
-    /*height: 100%;*/
     background-color: #28204C;
 }
 
 .sidenav-wrapper {
     position: fixed;
-
     margin-top: 5vh;
     margin-bottom: 3vh;
     height: 92vh;
@@ -21,13 +19,10 @@ html, body {
 }
 
 #contacts {
-    /*margin-top: 1.5vh;*/
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-
-
 
 .label {
     text-align: center;
@@ -52,6 +47,16 @@ html, body {
     border-color: #53F2C2;
 }
 
+.link-undecorated {
+    color: #212529;
+    font-style: italic;
+}
+
+.link-undecorated:hover {
+    color: #212529;
+    /*text-decoration: none;*/
+}
+
 .contact {
     margin-top: 1vh;
     margin-bottom: 1vh;
@@ -65,7 +70,6 @@ html, body {
     margin-left: 0.4vw;
     color: #ffffff;
     font-size: 0.75rem;
-
 }
 
 .link-text:hover {
