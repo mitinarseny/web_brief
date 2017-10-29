@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <script type="text/javascript" src="header.js">  </script>
     <title>Arseny Mitin | Developer</title>
     <link rel="icon" type="image/png" href="logo.png">
     <meta charset="utf-8">
@@ -19,36 +20,37 @@
         <div class="row">
             <div class="col-xl-1"></div>
             <div class="col-md-3 col-xl-2" style="display: flex; flex-direction: column; align-items: center;">
-                <div class="sidenav-wrapper">
+                <div style="position: fixed; margin-top: 3vh; margin-bottom: 3vh; height: 94vh; display: flex; align-items: stretch; justify-content: space-between; flex-direction: column;">
                     <div>
-                        <h3 class="label">Arseny Mitin</h3>
-                        <h6 class="label">@mitinarseny</h6>
+                        <h2 class="font-color-main text-align-center">Arseny Mitin</h2><hr style="border-color: yellow">
+                        <h6 class="font-color-main text-align-center"><span style="color: yellow">{</span> Software Engineer <span style="color: yellow">}</span> </h6>
+                        <h6 class="font-color-main text-align-center">from Moscow, Russia</h6>
                     </div>
-                    <div id="sidenav" class="list-group">
+                    <div id="sidenav" class="list-group" style="vertical-align: middle; align-items: center;">
                         <a class="list-group-item list-group-item-action active" href="#brief">brief</a>
                         <a class="list-group-item list-group-item-action" href="#prof-skills">prof skills</a>
                         <a class="list-group-item list-group-item-action" href="#projects">projects</a>
                         <a class="list-group-item list-group-item-action" href="#education">education</a>
                     </div>
-                    <div id="contacts">
-                        <div class="contact" style="margin-top: 0vh;">
-                            <a class="link-img" target="_blank" href="https://github.com/mitinarseny">
-                                <img class="logo" src="github.png" alt="github">
+                    <div style="display: flex; flex-direction: column; align-items: flex-start;">
+                        <div class="margin-vertical-1vh" style="margin-top: 0vh;">
+                            <a class="text-dec-none" target="_blank" href="https://github.com/mitinarseny">
+                                <img class="img_logo" src="github.png" alt="github">
                             </a>
-                            <a class="link-text" target="_blank" href="https://github.com/mitinarseny">@mitinarseny</a>
+                            <a class="contact_link" target="_blank" href="https://github.com/mitinarseny">@mitinarseny</a>
                         </div>
-                        <div class="contact">
-                            <a class="link-img" target="_blank" href="https://t.me/mitinarseny">
-                                <img class="logo" src="telegram.png" alt="telegram">
+                        <div class="margin-vertical-1vh">
+                            <a class="text-dec-none" target="_blank" href="https://t.me/mitinarseny">
+                                <img class="img_logo" src="telegram.png" alt="telegram">
                             </a>
-                            <a class="link-text" target="_blank" href="https://t.me/mitinarseny">@mitinarseny</a>
+                            <a class="contact_link" target="_blank" href="https://t.me/mitinarseny">@mitinarseny</a>
                         </div>
 
-                        <div class="contact" style="margin-bottom: 0vh;">
-                            <a class="link-img" target="_blank" href="mailto:mitinarseny@gmail.com?subject=Job">
-                                <img class="logo" src="email.png" alt="email">
+                        <div class="margin-vertical-1vh" style="margin-bottom: 0vh;">
+                            <a class="text-dec-none" target="_blank" href="mailto:mitinarseny@gmail.com?subject=Job">
+                                <img class="img_logo" src="email.png" alt="email">
                             </a>
-                            <a class="link-text" target="_blank" href="mailto:mitinarseny@gmail.com?subject=Job">mitinarseny@gmail.com</a>
+                            <a class="contact_link" target="_blank" href="mailto:mitinarseny@gmail.com?subject=Job">mitinarseny@gmail.com</a>
                         </div>
                     </div>
                 </div>
@@ -67,10 +69,11 @@
                     <div class="section">
                         <h4 class="header">prof skills</h4>
                         <p class="text" style="text">
-                            <b>Languages:</b> <br> Middle Developer: Python <br> Juniour Developer: C++, C#, SQL, HTML, CSS, JavaScript, Lua, MoonScript <br>
+                            <b>Languages:</b> <br> Middle Developer: Python <br> Juniour Developer: C++, C#, SQL, HTML, CSS, JavaScript, Lua, MoonScript
+                            <br>
                             <br>
                             <b>Experience with:</b>
-                            <ul>
+                            <ul class="font">
                                 <li>
                                     <b>DBs:</b>
                                     <a class="link-undecorated" target="_balnk" href="https://www.postgresql.org">PostgreSQL</a> |
@@ -121,33 +124,39 @@
                 <div id="projects" class="section-wrapper">
                     <div class="section">
                         <h4 class="header">projects & experience</h4>
+                        <table style="width: 100%">
+                            <tr>
+                                <td>Jul to Aug 2017</td>
+                                <td style="text-align: right"><b>Regional Development Office,</b></td>
+                            </tr>
+                            <tr>
+                                <td>Moscow</td>
+                                <td style="text-align: right; text-style: bold">Back-end API developer</td>
+                            </tr>
+                        </table>
                         <p class="text">
+
+                            I have no rights to disclose information about the details of the project.
                             <hr>
-                            <h6>Back-end developer, «Региональное Бюро Развития»; Москва — 2017</h6>
-                            Занимался разработкой API. Не имею права разглашать информацию о деталях проекта.
-                            <hr>
-                            <h6>Back-end (api) developer, «Bikemates»; Москва — 2017</h6>
-                            Занимался разработкой веб-сервиса для создания и прохождения вело-квестов в городе Москве. Обязанности: разработка API, координация back-end разработки. <br>
+                            <h6>Back-end (api) developer, «Bikemates»; Москва — 2017</h6> Занимался разработкой веб-сервиса для создания и прохождения вело-квестов в городе Москве. Обязанности: разработка API, координация back-end разработки. <br>
                             <b>Стек использованных технологий:</b>
-                            <ul>
+                            <ul class="font">
                                 <li><a class="link-undecorated" target="_balnk" href="https://www.python.org">Python 3.6</a></li>
                                 <li><a class="link-undecorated" target="_balnk" href="http://flask.pocoo.org">Flask</a></li>
                                 <li><a class="link-undecorated" target="_balnk" href="http://flask-restful.readthedocs.io/en/latest/">Flask-RESTful</a></li>
                                 <li><a class="link-undecorated" target="_balnk" href="http://flask-sqlalchemy.pocoo.org/2.3/">Flask-SQLAlchemy</a></li>
                                 <li><a class="link-undecorated" target="_balnk" href="https://www.postgresql.org">PostgreSQL</a></li>
                             </ul>
-                            <hr>
-                            <h6>«Создание и визуализация графовой базы данных выпускников лит 1533 на основе данных из социальных сетей»; Москва — 2016</h6>
-                            Выпускной проект в Лицее Информационных Технологий 1533.
-                            Реализованная задача: разработка программы, автоматически составляющей графовую базу данных, вершинами которой являются выпускники ЛИТ 1533, а ребрами — дружеские связи в социальных сетях; визуализация базы данных. <br>
+                            <hr style="border-color: #28204C">
+                            <h6>«Создание и визуализация графовой базы данных выпускников лит 1533 на основе данных из социальных сетей»; Москва — 2016</h6> Выпускной проект в Лицее Информационных Технологий 1533. Реализованная задача: разработка программы, автоматически составляющей графовую базу данных, вершинами которой являются выпускники ЛИТ 1533, а ребрами — дружеские связи
+                            в социальных сетях; визуализация базы данных. <br>
                             <b>Стек использованных технологий:</b>
-                            <ul>
+                            <ul class="font">
                                 <li><a class="link-undecorated" target="_balnk" href="https://www.python.org">Python 3.5</a></li>
                                 <li><a class="link-undecorated" target="_balnk" href="https://www.riverbankcomputing.com/software/pyqt/intro">PyQt5</a></li>
                                 <li><a class="link-undecorated" target="_balnk" href="https://neo4j.com/product/">Neo4j v3.0.6 CE</a></li>
                                 <li><a class="link-undecorated" target="_balnk" href="http://py2neo.org/v3/">Py2neo v3.1.2</a></li>
                             </ul>
-                            <hr>
                         </p>
                     </div>
                 </div>
@@ -156,8 +165,7 @@
                         <h4 class="header">education</h4>
                         <p class="text">
                             2017 – present time: <a class="link-undecorated" target="_blank" href="https://www.hse.ru/ba/cosec/">National Research University Higher School of Economics, department of Computer Security</a>
-                            <hr>
-                            2014 – 2017: <a class="link-undecorated" target="_blank" href="https://informatics.ru/yandex/">Yandex Programming School, speciality "Industrial Programming"</a>
+                            <hr> 2014 – 2017: <a class="link-undecorated" target="_blank" href="https://informatics.ru/yandex/">Yandex Programming School, speciality "Industrial Programming"</a>
                         </p>
                     </div>
                 </div>
