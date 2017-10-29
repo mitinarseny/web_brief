@@ -3,7 +3,6 @@
     /*--background-color: white;*/
     --main-color: #53F2C2;
     --font-color-main: white;
-    /*--font-color-main: black;*/
 }
 :root {
     --back-color: #28204C;
@@ -113,6 +112,8 @@ html, body {
 .section {
     background-color: var(--back-color);
     border-color: var(--front-color);
+    color: var(--font-color-main);
+    text-align: justify;
     padding-top: 2.5vh;
     padding-right: 2vw;
     padding-bottom: 1vh;
@@ -125,11 +126,6 @@ html, body {
     color: yellow;
     text-align: center;
     margin-bottom: 2.5vh;
-}
-
-.text {
-    text-align: justify;
-    color: var(--font-color);
 }
 
 .font {
