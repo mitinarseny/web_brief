@@ -22,9 +22,9 @@
             <div class="col-md-3 col-xl-2" style="display: flex; flex-direction: column; align-items: center;">
                 <div style="position: fixed; margin-top: 3vh; margin-bottom: 3vh; height: 94vh; display: flex; align-items: stretch; justify-content: space-between; flex-direction: column;">
                     <div>
-                        <h2 class="background-font-color" style="color: var(--background-font-color); text-align: center;">Arseny Mitin</h2><hr style="border-color: yellow">
-                        <h6 class="background-font-color" style="text-align: center;"><span style="color: yellow">{</span> Software Engineer <span style="color: yellow">}</span> </h6>
-                        <h6 class="background-font-color" style="text-align: center;">from Moscow, Russia</h6>
+                        <h2 style="text-align: center;">Arseny Mitin</h2><hr class="decorator">
+                        <h6 style="text-align: center;"><span class="decorator">{</span> Software Engineer <span class="decorator">}</span> </h6>
+                        <h6 style="text-align: center;">from Moscow, Russia</h6>
                     </div>
                     <div id="sidenav" class="list-group" style="vertical-align: middle; align-items: center;">
                         <a class="list-group-item list-group-item-action active" href="#about">about</a>
@@ -65,10 +65,12 @@
                 <div id="prof-skills" class="section-wrapper">
                     <div class="section">
                         <h4 class="header">professional skills</h4>
-                            <b>Языки программирования:</b> <br> Middle Developer: Python <br> Juniour Developer: C++, C#, SQL, HTML, CSS, JavaScript, Lua, MoonScript
+                            <b class="background-font-color-2">Языки программирования:</b> <br>
+                            Middle Developer: Python <br>
+                             Juniour Developer: C++, C#, SQL, HTML, CSS, JavaScript, Lua, MoonScript
                             <br>
                             <br>
-                            <b>Опыт работы с:</b>
+                            <b class="background-font-color-2">Опыт работы с:</b>
                             <ul>
                                 <li>
                                     <b>DBs:</b>
@@ -119,7 +121,7 @@
                 <div id="projects" class="section-wrapper">
                     <div class="section">
                         <h4 class="header">projects & experience</h4>
-                        <div class="row exp-info">
+                        <div class="row experience-info background-font-color-2">
                             <div class="col-6">
                                 <h6>Июль 2017 – Август 2017 <br>
                                 Россия, Москва</h6>
@@ -135,7 +137,7 @@
                         	<li>Разработкой RESTful <strong>API</strong>
                         	<ul>
                         		<li>Python frameworks: <a class="link-undecorated" href="https://www.djangoproject.com" target="_blank">Django</a>, <a class="link-undecorated" href="http://flask.pocoo.org" target="_blank">Flask</a>, <a class="link-undecorated" href="https://trypyramid.com" target="_blank">Pyramid</a></li>
-                        		<li><strong><a class="link-undecorated" href="https://www.nginx.com" target="_blank">NGINX</a> + <a class="link-undecorated" href="http://openresty.org/en/" target="_blank">OpenResty</a> </strong><strong>+</strong><strong> <a class="link-undecorated" href="http://www.lua.org/about.html" target="_blank">Lua</a> </strong>/ <strong><a class="link-undecorated" href="http://moonscript.org" target="_blank">MoonScript</a></strong> framework: <a class="link-undecorated" href="http://leafo.net/lapis/" target="_blank">Lapis</a></li>
+                        		<li><a class="link-undecorated" href="https://www.nginx.com" target="_blank">NGINX</a> + <a class="link-undecorated" href="http://openresty.org/en/" target="_blank">OpenResty</a> + <a class="link-undecorated" href="http://www.lua.org/about.html" target="_blank">Lua</a> / <a class="link-undecorated" href="http://moonscript.org" target="_blank">MoonScript</a> framework: <a class="link-undecorated" href="http://leafo.net/lapis/" target="_blank">Lapis</a></li>
                         		<li><a class="link-undecorated" href="https://github.com/centrifugal/centrifugo" target="_blank">Centrifugo</a></li>
                         		<li><a class="link-undecorated" href="https://swagger.io" target="_blank">Swagger</a></li>
                         	</ul></li>
@@ -155,9 +157,9 @@
                         	<li>Python-модуль для валидации и парсинга аргументов объекта flask.request – <a class="link-undecorated" href="https://github.com/mitinarseny/flask-request-args-parser" target="_blank">flask-request-args-parser</a></li>
                         </ul>
 
-                        <hr style="border-color: white;">
+                        <hr class="decorator">
 
-                        <div class="row exp-info">
+                        <div class="row experience-info background-font-color-2">
                             <div class="col-6">
                                 <h6>2017<br>
                                 Россия, Москва</h6>
@@ -175,8 +177,8 @@
                         	<li>Администрированием баз данных</li>
                         	<li>Общей координацией backend разработки</li>
                         </ul>
-                        <hr style="border-color: white;">
-                        <div class="row exp-info">
+                        <hr class="decorator">
+                        <div class="row experience-info background-font-color-2">
                             <div class="col-6">
                                 <h6>2016<br>
                                 Россия, Москва</h6>
@@ -202,8 +204,12 @@
                 <div id="education" class="section-wrapper">
                     <div class="section">
                         <h4 class="header">education</h4>
-                            2017 – present: <a class="link-undecorated" target="_blank" href="https://www.hse.ru/ba/cosec/">National Research University Higher School of Economics, department of Computer Security</a>
-                            <hr> 2014 – 2017: <a class="link-undecorated" target="_blank" href="https://informatics.ru/yandex/">Yandex Programming School, speciality "Industrial Programming"</a>
+
+                            <span class="background-font-color-2">2017 – н.в.:</span> <a class="link-undecorated" target="_blank" href="https://www.hse.ru/ba/cosec/">НИУ ВШЭ, факультет "Компьютерная безопасность"</a>
+                            <hr class="decorator">
+                            <span class="background-font-color-2">2014 – 2017:</span> <a class="link-undecorated" target="_blank" href="https://informatics.ru/yandex/">Школа Программирования Яндекса, специальность "Промышленное программирование"</a>
+                            <hr class="decorator">
+                            <span class="background-font-color-2">2014 – 2017:</span> <a class="link-undecorated" target="_blank" href="https://www.lit.msu.ru">Лицей Информационных Технологий, направление "Прикладная экономика"</a>
                     </div>
                 </div>
             </div>
