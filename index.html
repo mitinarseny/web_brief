@@ -7,11 +7,11 @@
     <link rel="icon" type="image/png" href="logo.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://unpkg.com/popper.js"></script>
-    <script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="popper/popper.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="scroll.js"></script>
 </head>
 
@@ -22,32 +22,32 @@
             <div class="col-md-3 col-xl-2" style="display: flex; flex-direction: column; align-items: center;">
                 <div style="position: fixed; margin-top: 3vh; margin-bottom: 3vh; height: 94vh; display: flex; align-items: stretch; justify-content: space-between; flex-direction: column;">
                     <div>
-                        <h2 class="font-color-main text-align-center">Arseny Mitin</h2><hr style="border-color: yellow">
-                        <h6 class="font-color-main text-align-center"><span style="color: yellow">{</span> Software Engineer <span style="color: yellow">}</span> </h6>
-                        <h6 class="font-color-main text-align-center">from Moscow, Russia</h6>
+                        <h2 class="background-font-color" style="color: var(--background-font-color); text-align: center;">Arseny Mitin</h2><hr style="border-color: yellow">
+                        <h6 class="background-font-color" style="text-align: center;"><span style="color: yellow">{</span> Software Engineer <span style="color: yellow">}</span> </h6>
+                        <h6 class="background-font-color" style="text-align: center;">from Moscow, Russia</h6>
                     </div>
                     <div id="sidenav" class="list-group" style="vertical-align: middle; align-items: center;">
                         <a class="list-group-item list-group-item-action active" href="#about">about</a>
                         <a class="list-group-item list-group-item-action" href="#prof-skills">prof skills</a>
-                        <a class="list-group-item list-group-item-action" href="#projects">projects</a>
+                        <a class="list-group-item list-group-item-action" href="#projects">proj & exp</a>
                         <a class="list-group-item list-group-item-action" href="#education">education</a>
                     </div>
                     <div style="display: flex; flex-direction: column; align-items: flex-start;">
-                        <div class="margin-vertical-1vh" style="margin-top: 0vh;">
-                            <a class="text-dec-none" target="_blank" href="https://github.com/mitinarseny">
+                        <div style="margin-top: 0vh; margin-bottom: 1vh;">
+                            <a style="text-decoration: none;" target="_blank" href="https://github.com/mitinarseny">
                                 <img class="img_logo" src="github.png" alt="github">
                             </a>
                             <a class="contact_link" target="_blank" href="https://github.com/mitinarseny">@mitinarseny</a>
                         </div>
-                        <div class="margin-vertical-1vh">
-                            <a class="text-dec-none" target="_blank" href="https://t.me/mitinarseny">
+                        <div style="margin-top: 1vh; margin-bottom: 1vh;">
+                            <a style="text-decoration: none;" target="_blank" href="https://t.me/mitinarseny">
                                 <img class="img_logo" src="telegram.png" alt="telegram">
                             </a>
                             <a class="contact_link" target="_blank" href="https://t.me/mitinarseny">@mitinarseny</a>
                         </div>
 
-                        <div class="margin-vertical-1vh" style="margin-bottom: 0vh;">
-                            <a class="text-dec-none" target="_blank" href="mailto:mitinarseny@gmail.com?subject=Job">
+                        <div style="margin-top: 0vh; margin-bottom: 0vh;">
+                            <a style="text-decoration: none;" target="_blank" href="mailto:mitinarseny@gmail.com?subject=Job">
                                 <img class="img_logo" src="email.png" alt="email">
                             </a>
                             <a class="contact_link" target="_blank" href="mailto:mitinarseny@gmail.com?subject=Job">mitinarseny@gmail.com</a>
@@ -59,18 +59,17 @@
                 <div class="section-wrapper">
                     <div class="section">
                         <h4 class="header">about</h4>
-                        Python Middle Developer. Finished 3rd year of Yandex School of Programming in “Industrial Programming” speciality. At present a full-time student of the Higher School of Economics at the Computer Security faculty. Taking an active part in different scientific-applied
-                        projects and startups.
+                        Закончил 3-й курс Школы Программирования Яндекса по специальности «Промышленное программирование». В настоящее время учусь на очном отделении специалитета ВШЭ на факультете «Компьютерная безопасность». Принимаю активное участие в различных научно-прикладных проектах и стартапах.
                     </div>
                 </div>
                 <div id="prof-skills" class="section-wrapper">
                     <div class="section">
-                        <h4 class="header">prof skills</h4>
-                            <b>Languages:</b> <br> Middle Developer: Python <br> Juniour Developer: C++, C#, SQL, HTML, CSS, JavaScript, Lua, MoonScript
+                        <h4 class="header">professional skills</h4>
+                            <b>Языки программирования:</b> <br> Middle Developer: Python <br> Juniour Developer: C++, C#, SQL, HTML, CSS, JavaScript, Lua, MoonScript
                             <br>
                             <br>
-                            <b>Experience with:</b>
-                            <ul class="font">
+                            <b>Опыт работы с:</b>
+                            <ul>
                                 <li>
                                     <b>DBs:</b>
                                     <a class="link-undecorated" target="_balnk" href="https://www.postgresql.org">PostgreSQL</a> |
@@ -120,37 +119,84 @@
                 <div id="projects" class="section-wrapper">
                     <div class="section">
                         <h4 class="header">projects & experience</h4>
-                        <table style="width: 100%">
-                            <tr>
-                                <td>Jul to Aug 2017</td>
-                                <td style="text-align: right"><b>Regional Development Office,</b></td>
-                            </tr>
-                            <tr>
-                                <td>Moscow</td>
-                                <td style="text-align: right; text-style: bold">Back-end API developer</td>
-                            </tr>
-                        </table>
-                            I have no rights to disclose information about the details of the project.
-                            <hr>
-                            <h6>Back-end (api) developer, «Bikemates»; Москва — 2017</h6> Занимался разработкой веб-сервиса для создания и прохождения вело-квестов в городе Москве. Обязанности: разработка API, координация back-end разработки. <br>
-                            <b>Стек использованных технологий:</b>
-                            <ul class="font">
-                                <li><a class="link-undecorated" target="_balnk" href="https://www.python.org">Python 3.6</a></li>
-                                <li><a class="link-undecorated" target="_balnk" href="http://flask.pocoo.org">Flask</a></li>
-                                <li><a class="link-undecorated" target="_balnk" href="http://flask-restful.readthedocs.io/en/latest/">Flask-RESTful</a></li>
-                                <li><a class="link-undecorated" target="_balnk" href="http://flask-sqlalchemy.pocoo.org/2.3/">Flask-SQLAlchemy</a></li>
-                                <li><a class="link-undecorated" target="_balnk" href="https://www.postgresql.org">PostgreSQL</a></li>
-                            </ul>
-                            <hr style="border-color: #28204C">
-                            <h6>«Создание и визуализация графовой базы данных выпускников лит 1533 на основе данных из социальных сетей»; Москва — 2016</h6> Выпускной проект в Лицее Информационных Технологий 1533. Реализованная задача: разработка программы, автоматически составляющей графовую базу данных, вершинами которой являются выпускники ЛИТ 1533, а ребрами — дружеские связи
-                            в социальных сетях; визуализация базы данных. <br>
-                            <b>Стек использованных технологий:</b>
-                            <ul class="font">
-                                <li><a class="link-undecorated" target="_balnk" href="https://www.python.org">Python 3.5</a></li>
-                                <li><a class="link-undecorated" target="_balnk" href="https://www.riverbankcomputing.com/software/pyqt/intro">PyQt5</a></li>
-                                <li><a class="link-undecorated" target="_balnk" href="https://neo4j.com/product/">Neo4j v3.0.6 CE</a></li>
-                                <li><a class="link-undecorated" target="_balnk" href="http://py2neo.org/v3/">Py2neo v3.1.2</a></li>
-                            </ul>
+                        <div class="row exp-info">
+                            <div class="col-6">
+                                <h6>Июль 2017 – Август 2017 <br>
+                                Россия, Москва</h6>
+                            </div>
+                            <div class="col-6" style="text-align: right">
+                                <h6><a class="link-undecorated" href="http://rbr.moscow" target="_blank">«Региональное Бюро Развития»</a><br>
+                                Software Engineer</h6>
+                            </div>
+                        </div>
+                        <h6>Занимался:</h6>
+                        <ul>
+                        	<li>Проектированием архитектуры приложений</li>
+                        	<li>Разработкой RESTful <strong>API</strong>
+                        	<ul>
+                        		<li>Python frameworks: <a class="link-undecorated" href="https://www.djangoproject.com" target="_blank">Django</a>, <a class="link-undecorated" href="http://flask.pocoo.org" target="_blank">Flask</a>, <a class="link-undecorated" href="https://trypyramid.com" target="_blank">Pyramid</a></li>
+                        		<li><strong><a class="link-undecorated" href="https://www.nginx.com" target="_blank">NGINX</a> + <a class="link-undecorated" href="http://openresty.org/en/" target="_blank">OpenResty</a> </strong><strong>+</strong><strong> <a class="link-undecorated" href="http://www.lua.org/about.html" target="_blank">Lua</a> </strong>/ <strong><a class="link-undecorated" href="http://moonscript.org" target="_blank">MoonScript</a></strong> framework: <a class="link-undecorated" href="http://leafo.net/lapis/" target="_blank">Lapis</a></li>
+                        		<li><a class="link-undecorated" href="https://github.com/centrifugal/centrifugo" target="_blank">Centrifugo</a></li>
+                        		<li><a class="link-undecorated" href="https://swagger.io" target="_blank">Swagger</a></li>
+                        	</ul></li>
+                        	<li>Проектированием и сборкой контейнеров на <a class="link-undecorated" href="https://www.docker.com" target="_blank">Docker</a></li>
+                        	<li>Разработкой сервисов</li>
+                        	<li>Проектированием баз данных
+                        	<ul>
+                        		<li><a class="link-undecorated" href="https://www.postgresql.org" target="_blank">PostgreSQL</a> на <a class="link-undecorated" href="http://www.sqlalchemy.org" target="_blank">SQLAlchemy</a></li>
+                        		<li><a class="link-undecorated" href="https://rethinkdb.com" target="_blank">RethinkDB</a></li>
+                        		<li><a class="link-undecorated" href="https://redis.io" target="_blank">Redis</a></li>
+                        		<li><a class="link-undecorated" href="https://minio.io" target="_blank">Minio</a></li>
+                        	</ul></li>
+                        </ul>
+                        <h6>Разработал:</h6>
+                        <ul>
+                        	<li>Недостоющую библиотеку на Lua для centrifugo – <a class="link-undecorated" href="https://github.com/semcommunity/centrilua" target="_blank">centrilua</a></li>
+                        	<li>Python-модуль для валидации и парсинга аргументов объекта flask.request – <a class="link-undecorated" href="https://github.com/mitinarseny/flask-request-args-parser" target="_blank">flask-request-args-parser</a></li>
+                        </ul>
+
+                        <hr style="border-color: white;">
+
+                        <div class="row exp-info">
+                            <div class="col-6">
+                                <h6>2017<br>
+                                Россия, Москва</h6>
+                            </div>
+                            <div class="col-6" style="text-align: right">
+                                <h6>«Bikemates»<br>
+                                Backend Engineer</h6>
+                            </div>
+                        </div>
+                        <h6>Занимался:</h6>
+                        <ul>
+                        	<li>Проектированием архитектуры приложения</li>
+                        	<li>Проектированием и разработкой RESTful API на <a class="link-undecorated" href="http://flask.pocoo.org" target="_blank">Flask</a> + <a class="link-undecorated" href="http://flask-restful.readthedocs.io">Flask-RESTful</a></li>
+                        	<li>Проектированием баз данных <a class="link-undecorated" href="https://www.postgresql.org" target="_blank">PostgreSQL</a> на <a class="link-undecorated" href="http://www.sqlalchemy.org" target="_blank">SQLAlchemy</a></li>
+                        	<li>Администрированием баз данных</li>
+                        	<li>Общей координацией backend разработки</li>
+                        </ul>
+                        <hr style="border-color: white;">
+                        <div class="row exp-info">
+                            <div class="col-6">
+                                <h6>2016<br>
+                                Россия, Москва</h6>
+                            </div>
+                            <div class="col-6" style="text-align: right">
+                                <h6><a class="link-undecorated" href="http://lit.msu.ru" target="_blank">«ЛИТ»</a><br>
+                                Project</h6>
+                            </div>
+                        </div>
+                        <b>Тема:</b> Создание и визуализация графовой базы данных выпускников лит 1533 на основе данных из социальных сетей.<br>
+                        Выпускной проект в Лицее Информационных Технологий 1533. <br>
+                        Реализованная задача: разработка программы, автоматически составляющей графовую базу данных, вершинами которой являются выпускники ЛИТ 1533, а ребрами — дружеские связи
+                        в социальных сетях; визуализация базы данных. <br>
+                        <b>Стек использованных технологий:</b>
+                        <ul>
+                            <li><a class="link-undecorated" target="_balnk" href="https://www.python.org">Python 3.5</a></li>
+                            <li><a class="link-undecorated" target="_balnk" href="https://www.riverbankcomputing.com/software/pyqt/intro">PyQt5</a></li>
+                            <li><a class="link-undecorated" target="_balnk" href="https://neo4j.com/product/">Neo4j v3.0.6 CE</a></li>
+                            <li><a class="link-undecorated" target="_balnk" href="http://py2neo.org/v3/">Py2neo v3.1.2</a></li>
+                        </ul>
                     </div>
                 </div>
                 <div id="education" class="section-wrapper">

@@ -1,14 +1,15 @@
 :root {
     --background-color: #28204C;
-    /*--background-color: white;*/
+    --background-font-color: white;
+    --section-color: #28204C;
+    --frame-color: #53F2C2;
+    --section-font-color: white;
+    --section-header-color: var(--frame-color);
+
     --main-color: #53F2C2;
     --font-color-main: white;
-}
-:root {
     --back-color: #28204C;
-    /*--back-color: white;*/
     --front-color:#53F2C2;
-    /*--front-color: aquamarine;*/
     --font-color: white;
 }
 
@@ -16,26 +17,8 @@ html, body {
     background-color: var(--background-color);
 }
 
-.font-color-main {
-    color: var(--font-color-main);
-    color: var(--font-color-main);
-}
-
-.font-color-front {
-    color: var(--main-color);
-}
-
-.text-align-center {
-    text-align: center;
-}
-
-.margin-vertical-1vh {
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-}
-
-.text-dec-none {
-    text-decoration: none;
+.background-font-color {
+    color: var(--background-font-color);
 }
 
 .img_logo {
@@ -49,13 +32,6 @@ html, body {
     color: var(--font-color-main);
     font-size: 0.75rem;
 }
-
-
-
-
-
-
-
 
 .list-group-item {
     color: var(--front-color);
@@ -71,19 +47,17 @@ html, body {
 
 .list-group-item.active {
     color: #333333;
-    background-color: var(--front-color);
-    border-color: var(--front-color);
+    background-color: var(--frame-color);
+    border-color: var(--frame-color);
 }
 
 .link-undecorated {
-    color: var(--font-color);
-    color: var(--font-color);
+    color: inherit;
     font-style: italic;
 }
 
 .link-undecorated:hover {
-    color: var(--font-color);
-    color: var(--font-color);
+    color: inherit;
 }
 
 
@@ -110,10 +84,9 @@ html, body {
 }
 
 .section {
-    background-color: var(--back-color);
-    border-color: var(--front-color);
+    background-color: var(--section-color);
+    border-color: var(--frame-color);
     color: var(--font-color-main);
-    text-align: justify;
     padding-top: 2.5vh;
     padding-right: 2vw;
     padding-bottom: 1vh;
@@ -128,6 +101,6 @@ html, body {
     margin-bottom: 2.5vh;
 }
 
-.font {
-    color: var(--font-color);
+.exp-info {
+    margin-bottom: 1vh;
 }
