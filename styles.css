@@ -2,7 +2,7 @@
     --background-color: Ivory;
     --background-font-color: #212F3D;
     /*#D35400, #F39C12*/
-    --frame-color: #16A085;
+    --decarator-color: #D35400;
     --section-color: var(--background-color);
     --background-font-color-2: #D35400;
     --section-font-color: var(--background-font-color);
@@ -57,14 +57,14 @@ html, body {
 }
 
 .section {
-    border-color: var(--frame-color);
+    border-color: var(--decarator-color);
     color: var(--section-font-color);
     padding-top: 2.5vh;
     padding-right: 2vw;
     padding-bottom: 2.5vh;
     padding-left: 2vw;
     border-radius: 1vh;
-    border-style: double;
+    border-style: none;
 }
 
 .header {
@@ -82,6 +82,6 @@ html, body {
 }
 
 .decorator {
-    color: var(--frame-color);
-    border-color: var(--frame-color);
+    color: var(--decarator-color);
+    border-color: var(--decarator-color);
 }
