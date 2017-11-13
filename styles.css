@@ -14,17 +14,6 @@ html, body {
     color: var(--background-font-color);
 }
 
-@media (max-width: 768px) {
-    #sidenav {
-        display: none !important;
-    }
-    
-}
-
-@media (min-width: 769px) {
-
-}
-
 .img_logo {
     width: 5vh;
     height: 5vh;
@@ -36,19 +25,19 @@ html, body {
     font-size: 0.75rem;
 }
 
-.list-group-item, .list-group-item:focus {
+.nav-link, .nav-link:focus {
     color: var(--background-font-color);
     background-color: inherit;
     border-style: none;
     text-align: left;
 }
 
-.list-group-item:hover {
+.nav-link:hover {
     background-color: inherit;
     color: var(--background-font-color-2);
 }
 
-.list-group-item.active {
+.nav-link.active {
     color: var(--background-font-color-2);
     background-color: inherit;
 }

@@ -11,14 +11,16 @@
     <link href="styles.css" rel="stylesheet">
     <script type="text/javascript" src="jquery/jquery.min.js"></script>
     <script type="text/javascript" src="popper/popper.js"></script>
+    <script type="text/javascript" src="tether/js/tether.min.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="scroll.js"></script>
 </head>
 
-<body data-spy="scroll">
+<body data-spy="scroll" data-target="#sidenav-wrapper">
 <div class="container">
     <div class="row">
-        <nav id="sidenav-wapper" class="col-md-3 hidden-sm-down" style="display: flex; flex-direction: column; align-items: center;">
+        <nav id="sidenav-wrapper" class="col-md-3 hidden-sm-down"
+             style="display: flex; flex-direction: column; align-items: center;">
             <div style="position: fixed; margin-top: 3vh; margin-bottom: 3vh; height: 94vh; display: flex; align-items: stretch; justify-content: space-between; flex-direction: column;">
                 <div>
                     <h2 style="text-align: center;">Arseny Mitin</h2>
@@ -27,12 +29,12 @@
                             class="decorator">}</span></h6>
                     <h6 style="text-align: center;">Moscow, Russia</h6>
                 </div>
-                <div id="sidenav" class="list-group" style="vertical-align: middle; align-items: center;">
-                    <a class="list-group-item list-group-item-action active" href="#about">about</a>
-                    <a class="list-group-item list-group-item-action" href="#prof-skills">prof skills</a>
-                    <a class="list-group-item list-group-item-action" href="#projects">proj & exp</a>
-                    <a class="list-group-item list-group-item-action" href="#education">education</a>
-                </div>
+                <nav id="sidenav" class="nav flex-column" style="vertical-align: middle; align-items: center;">
+                    <a class="nav-link active" href="#about">about</a>
+                    <a class="nav-link" href="#prof-skills">prof skills</a>
+                    <a class="nav-link" href="#projects">proj & exp</a>
+                    <a class="nav-link" href="#education">education</a>
+                </nav>
                 <div style="display: flex; flex-direction: column; align-items: flex-start;">
                     <div style="margin-top: 0vh; margin-bottom: 1vh;">
                         <a style="text-decoration: none;" target="_blank" href="https://github.com/mitinarseny">
